@@ -18,6 +18,25 @@ src/
 │   ├── organisms/ # Larger components composed of molecules/atoms
 ```
 
+## About design pattern
+The pattern is based on the idea of atoms, molecules, organisms, templates, and pages (the fundamental building blocks of any interface).
+
+Atoms: the simplest elements, such as buttons or input fields.
+Molecules: formed by combining two or more atoms, for example, a search bar composed of an input and a button.
+Organisms: more complex structures that group several atoms and molecules to fulfill a specific purpose.
+Templates: page-level arrangements that define the structure and layout without focusing on specific content.
+Pages: instances of templates filled with actual content, representing the final, real interface presented to the user.
+
+example:
+```
+Atom: a button or a text field; the most basic element of the interface.
+Molecule: a search form, which combines a text field (atom) and a button (atom).
+Organism: a website header, which groups several molecules and atoms, such as a logo, the search form, and a navigation menu.
+Template: defines the page structure, for example, a homepage layout where the header, a main content section, and a footer are placed, without specific final content.
+Page: a concrete instance of a template with real content, such as a blog homepage with actual text, images, and links.
+```
+In this template, to simplify development and since we are using Tailwind and reusable components, we prefer to work mainly at the organism and template levels, instead of defining every atom or molecule individually.
+
 ## Example: Clients
 
 We use a **Clients** example to illustrate the architecture.
@@ -86,5 +105,4 @@ Example usage:
 - Strong typing with TypeScript
 - Fast builds and hot reload with Vite
 - Utility-first styling with Tailwind CSS
-
-This template serves as a solid starting point for building modern, maintainable, and scalable React applications.
+ 
