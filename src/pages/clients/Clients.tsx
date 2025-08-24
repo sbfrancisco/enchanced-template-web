@@ -1,6 +1,6 @@
 import { useClients } from "../../hooks/useClients"
-import { ListClients } from "./molecules/list-clients"
-import { LastClient } from "./molecules/last-clients"
+import { ListClients } from "./organisms/list-clients"
+import { LastClient } from "./organisms/last-clients"
 
 export default function Clients() {
   const { clients, lastClient, deleteClient, loading } = useClients()

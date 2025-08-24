@@ -1,4 +1,4 @@
-import type { Client } from "../../../types/clients"
+import type { Client } from "@models/clients"
 
 export function LastClient({ lastClient }: { lastClient: Client | null }) {
   if (!lastClient) {

@@ -2,7 +2,7 @@
 
 /* is only responsible for displaying the list, the controller would be Clients.tsx, 
 that is, the page that renders everything */
-import type { Client } from "../../../types/clients"
+import type { Client } from "@models/clients"
 
 export function ListClients({ clients, deleteClient }: { clients: Client[]; deleteClient: (id: string) => void }) {
   return (
