@@ -1,4 +1,4 @@
-# React + TypeScript + Vite Template
+# React + TypeScript + Vite + Vitest Template
 
 This template provides a clean and scalable project structure using React, TypeScript, and Vite.  
 It also integrates **Tailwind CSS** for fast and efficient styling.
@@ -10,6 +10,7 @@ The project is organized to encourage separation of concerns and modular develop
 ```
 src/
 ├── api/          # Responsible for making requests to the backend (fetch, axios, etc.)
+├── test/         # For test hooks or functions
 ├── hooks/        # Custom React hooks for encapsulating business logic
 ├── models/       # TypeScript interfaces and types shared across the app
 ├── components/   # React components, separated by levels of abstraction
@@ -97,6 +98,8 @@ Example usage:
   <button className="bg-red-500 text-white px-3 py-1 rounded">Delete</button>
 </li>
 ```
+### 6. Testing w/ vitest
+This example it also includes how to simulate an API call and how to test the hook functions.
 
 ## Benefits
 
@@ -106,3 +109,4 @@ Example usage:
 - Fast builds and hot reload with Vite
 - Utility-first styling with Tailwind CSS
  
+
