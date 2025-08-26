@@ -1,4 +1,4 @@
-import type { Client } from "@types/clients-tp";
+import type { Client } from "@models/clients";
 
 export const fetchClients = async (): Promise<Client[]> => {
   const res = await fetch("https://jsonplaceholder.typicode.com/users");
