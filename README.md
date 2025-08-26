@@ -100,6 +100,18 @@ Example usage:
 ```
 ### 6. Testing w/ vitest
 This example it also includes how to simulate an API call and how to test the hook functions.
+```
+describe('useClients hook', () => {
+  test('elimina el último cliente', async () => {
+    await act(async () => {
+      await result.current.deleteClient(lastClient.id);
+    });
+    const clients = result.current.clients;
+    expect(result.current.clients.includes(lastClient)).toBe(false);
+    expect(result.current.clients.length).toBe(1);
+  });
+```
+this block is simplified for demonstration purposes.
 
 ## Benefits
 
@@ -109,4 +121,5 @@ This example it also includes how to simulate an API call and how to test the ho
 - Fast builds and hot reload with Vite
 - Utility-first styling with Tailwind CSS
  
+
 
