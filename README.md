@@ -24,11 +24,6 @@ https://atomicdesign.bradfrost.com/chapter-2/
 
 The pattern is based on the idea of atoms, molecules, organisms, templates, and pages (the fundamental building blocks of any interface).
 
-Atoms: the simplest elements, such as buttons or input fields.
-Molecules: formed by combining two or more atoms, for example, a search bar composed of an input and a button.
-Organisms: more complex structures that group several atoms and molecules to fulfill a specific purpose.
-Templates: page-level arrangements that define the structure and layout without focusing on specific content.
-Pages: instances of templates filled with actual content, representing the final, real interface presented to the user.
 
 example:
 ```
