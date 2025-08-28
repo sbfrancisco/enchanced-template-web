@@ -110,9 +110,13 @@ describe('useClients hook', () => {
   });
 
 ```
+this block is simplified for demonstration purposes.
+
+
 note: if you're going to define a test, define it as follows:
 {your_test_name}.test.jsx
 this is to be found by vite
+
 
 ### To run templates and tests
 
@@ -127,7 +131,7 @@ if you want to install any other packages, just
 ```
 npm install {package}
 ```
-this block is simplified for demonstration purposes.
+
 
 ## Benefits
 
