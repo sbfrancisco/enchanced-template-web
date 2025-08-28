@@ -20,6 +20,8 @@ src/
 ```
 
 ## About design pattern
+https://atomicdesign.bradfrost.com/chapter-2/
+
 The pattern is based on the idea of atoms, molecules, organisms, templates, and pages (the fundamental building blocks of any interface).
 
 Atoms: the simplest elements, such as buttons or input fields.
@@ -86,6 +88,7 @@ In `components/molecules/` we define UI building blocks like `ListClients` or `L
 This separation ensures that components remain presentational and do not mix business logic.
 
 ### 5. Tailwind CSS
+https://tailwindcss.com/plus/ui-blocks?ref=sidebar
 
 The template uses **Tailwind CSS** for utility-first styling.  
 It allows you to quickly style components without writing custom CSS files, keeping everything consistent and easy to maintain.
@@ -139,6 +142,7 @@ this block is simplified for demonstration purposes.
 - Fast builds and hot reload with Vite
 - Utility-first styling with Tailwind CSS
  
+
 
 
 
