@@ -110,6 +110,24 @@ describe('useClients hook', () => {
     expect(result.current.clients.includes(lastClient)).toBe(false);
     expect(result.current.clients.length).toBe(1);
   });
+
+```
+note: if you're going to define a test, define it as follows:
+{your_test_name}.test.jsx
+this is to be found by vite
+
+### To run templates and tests
+
+```
+template:
+npm install (only the first time)
+npm run dev
+test:
+npm test
+```
+if you want to install any other packages, just
+```
+npm install {package}
 ```
 this block is simplified for demonstration purposes.
 
@@ -121,5 +139,6 @@ this block is simplified for demonstration purposes.
 - Fast builds and hot reload with Vite
 - Utility-first styling with Tailwind CSS
  
+
 
 
