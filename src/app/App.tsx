@@ -1,8 +1,8 @@
 import { Routes, Route } from "react-router-dom"
-import Home from "./pages/home/Home"
-import Clients from "./pages/clients/Clients"
-import Header from "./components/organisms/Header"
-import { Error404 } from "./pages/404/error"
+import Home from "../pages/home/Home"
+import Clients from "../pages/clients/Clients"
+import Header from "../components/organisms/Header"
+import { Error404 } from "../pages/404/error"
 
 export default function App() {
   return (
